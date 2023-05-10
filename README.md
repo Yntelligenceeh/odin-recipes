@@ -1,1 +1,1 @@
-# odin-recipes
+A practice website with few of my favorite recipes.
