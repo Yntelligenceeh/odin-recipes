@@ -1,6 +1,16 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(54, 54, 54);
+}
+
 .website-logo {
     width: 50px;
     height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(54, 54, 54);
 }
 
 h1 {
@@ -15,4 +25,36 @@ ul {
     -webkit-column-gap: 20px;
     column-count: 2;
     column-gap: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.recipe-item {
+    font-size: 24px;
+    height: 70px;
+    width: auto;
+    margin: 0px;
+    outline-style: groove;
+    outline-color: rgb(219, 219, 219);
+    outline-width: 1px;
+}
+
+.recipe-item-text {
+    height: 70px;
+    width: auto;
+    position: relative;
+    bottom: 26px;
+}
+
+.recipe-icon {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+}
+
+.recipe-icon:hover {
+    width: auto;
+    height: 70px;
 }
