@@ -9,17 +9,6 @@ body {
     color: rgb(54, 54, 54);
 }
 
-.logo {
-    position: relative;
-    width: 100%;
-    text-align: center;
-}
-
-.website-logo {
-    width: 50px;
-    height: auto;
-}
-
 a {
     text-decoration: none;
     color: rgb(54, 54, 54);
@@ -27,12 +16,12 @@ a {
 
 h1 {
     text-align: center;
-    margin-top: 50px;
-    margin-bottom: 60px;
+    margin: 50px auto 50px;
 }
 
 
 ul {
+    padding: 10px 100px;
     list-style-type: none;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -52,11 +41,32 @@ li {
     margin-bottom: 10px;
 }
 
+.logo {
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+.website-logo {
+    width: 80px;
+    height: auto;
+}
+
+.decorative-line {
+    padding-top: 30px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.decorative-line-img {
+    width: 300px;
+    height: auto;
+}
+
 .recipe-item {
     font-size: 24px;
     height: 70px;
     width: auto;
-    margin: 0px;
     outline-style: groove;
     outline-color: rgb(219, 219, 219);
     outline-width: 1px;
